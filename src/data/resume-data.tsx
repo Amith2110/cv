@@ -1,278 +1,149 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Amith MS",
+  initials: "MS",
+  location: "Bangalore, India, IST",
+  locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Engineer building quality web and mobile apps with 9 years of experience",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer and Engineering lead, I have successfully built multiple projects across tech stacks. Currently, I work mostly with TypeScript, React, NextJs, Node.js, and AdonisJs. I have over 9 years of experience in working as an engineer and leading teams of engineers in  India and Germany",
+  avatarUrl: "https://avatars.githubusercontent.com/u/56049550?v=4",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "amithms.92@gmail.com",
+    tel: "+919980833738",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Amith2110",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/amith-m-s-8b97683a/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "BNM Institure of Technology",
+      degree: "Bachelor's Degree in Computer science and Engineering",
+      start: "2010",
+      end: "2014",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Fitster",
+      link: "https://www.fitster.io/",
+      badges: ["Founder"],
+      title: "Founder and Lead Engineer",
+      start: "May 2023",
+      end: "Dec 2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Took the product from 0-1. Was responsible for the entire product devlopment phase, from ideation to launching the v1. Click <a href='https://daniel.fitster.coach/' class='underline'>here</a> for a live example <br /> <br /> Technologies used: TypeScript, React, NextJs, AdonisJs, NodeJs, AWS, Render, Flutter",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "About You AG & Co. KG",
+      link: "https://en.aboutyou.de/your-shop",
+      title: "Senior Frontend Engineer",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "May 2021",
+      end: "May 2023",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Worked on the main AY Shop and worked with clients of AY's SaaS tool - Scayle. Led the team that developed and launched their most important project - <a href='https://fcbayern.com/store/de-de' class='underline'> FC Bayern Munich's E-commerce shop</a> <br /> <br /> Technologies used: TypeScript, React, Nuxt, Vue, AWS",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "GeekyAnts",
+      link: "https://geekyants.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Software Engineer → Engineering Manager",
+      start: "Dec 2014",
+      end: "May 2021",
+      description:
+        "Joined the company as the third employee and helped scale it to a 100+ company. Built and launched multiple projects using various tech stacks. Later on, ran a team of 12 engineers and was responsible for everything from hiring, training new joinees, performance evaluation and helping out the tech leads with architectural decisions. <br /> <br /> Technologies used: TypeScript, PHP, Dart, AngularJS, React.js, Laravel,Node, AWS and GCP.",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
+    "Vue/Nuxt.js",
+    "Tailwind",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "AdonisJs",
+    "AWS",
+    "PHP",
+    "0-1 Product Development",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Fitster",
       techStack: [
-        "Side Project",
         "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
+        "React/Next.js",
         "Node.js",
-        "GraphQL",
+        "AdonisJs",
+        "AWS",
+        "Flutter"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "A platform for online fitness coaches to run their business.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "fitster.io",
+        href: "https://www.fitster.io/",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "FC Bayern Munich",
+      techStack: ["TypeScript", "Vue/Nuxt.js", "Team Lead"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "FC Bayern Munich's E-commerce shop",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "fcbayern.com",
+        href: "https://fcbayern.com/store/de-de",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Tellius",
+      techStack: ["AngularJS", "Node.js", "D3.js", "HighCharts", "Puppeteer"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "An AI-powered business analytics platform",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "tellius.com",
+        href: "https://www.tellius.com/",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Sportsphotos",
+      techStack: ["AngularJs", "Laravel", "PHP"],
       description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+        "Sports events management platform",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "sportsphotos.com",
+        href: "https://www.sportsphotos.com",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Flutter's Documentation",
+      techStack: ["Documentation", "Open source", "Flutter", "React Native"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "Wrote a part of flutter's official documentation targeted towards devs with RN experience",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "docs.flutter.dev",
+        href: "https://docs.flutter.dev/get-started/flutter-for/react-native-devs",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      title: "Tech Talk",
+      techStack: ["Side Project", "Machine Learning", "Python"],
+      description: "Tried to introduce Machine Learning to the company back in 2018",
+      link: {
+        label: "youtube.com",
+        href: "https://www.youtube.com/watch?v=uQUbtYPEjHU",
+      },
     },
   ],
 } as const;
