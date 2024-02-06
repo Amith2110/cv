@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Bangalore, India, IST",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
-    "Full Stack Engineer with a focus on frontend engineering.",
+    "Full time founder. Part time Engineer.",
   summary:
-    "As a Full Stack Engineer and Engineering lead, I have successfully built multiple projects across tech stacks. I strive to create an environment where engineers do their best work and grow within the organisation. <br /> <br /> I have over <b>9 years of experience</b> working as an engineer and leading teams of engineers in India and Germany. <br /> <br /> Currently, I work mostly with TypeScript, React, NextJs, Node.js, and AdonisJs.",
+    "9+ years of experience building web and mobile apps. Now building <a class='underline' href='https://www.fitster.io/'>Fitster</a>.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56049550?v=4",
   contact: {
     email: "amithms.92@gmail.com",
@@ -37,23 +37,22 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: 'Threls Ltd',
-      link: 'https://www.threls.com/',
-      badges: ["Remote", "Freelance"],
-      title: "Freelance Consultant",
-      start: "Aug 2023",
-      end: "Present",
-      description: "Refactored and modernizeed core libraries for a FinTech client based in the UK<a href='https://www.weavr.io/' class='underline'>(weavr).</a> Also improved the developer experience signinficantly by creating a system that reduces friction between developing and testing. <br /> <br /> Technologies Used: TypeScript, Vue/Nuxt, Taiwlind, Bootstrap"
-    },
-    {
       company: "Fitster",
       link: "https://www.fitster.io/",
       badges: ["Founder"],
       title: "Founder and Lead Engineer",
       start: "May 2023",
-      end: "Dec 2023",
+      end: "Present",
       description:
-        "Took the product from 0-1. Was responsible for the entire product development phase, from ideation to launching the v1. Click <a href='https://daniel.fitster.coach/' class='underline'>here</a> for a live example <br /> <br /> Technologies used: TypeScript, React, NextJs, AdonisJs, NodeJs, AWS, Render, Flutter",
+        "Took the product from 0-1. Was responsible for the entire product development phase, from ideation to launching the v1. Click <a href='https://daniel.fitster.coach/' class='underline'>here</a> for a live example <br /> <br />",
+    },{
+      company: 'Threls Ltd',
+      link: 'https://www.threls.com/',
+      badges: ["Remote", "Freelance"],
+      title: "Freelance Consultant",
+      start: "Aug 2023",
+      end: "Jan 2023",
+      description: "Refactored and modernizeed core libraries for a FinTech client based in the UK<a href='https://www.weavr.io/' class='underline'>(weavr).</a> Also improved the developer experience signinficantly by creating a system that reduces friction between developing and testing. <br /> <br />"
     },
     {
       company: "About You AG & Co. KG",
@@ -63,7 +62,7 @@ export const RESUME_DATA = {
       start: "May 2021",
       end: "May 2023",
       description:
-        "Worked on the main AY Shop and worked with clients of AY's SaaS tool - Scayle. Led the team that developed and launched their most important project - <a href='https://fcbayern.com/store/de-de' class='underline'> FC Bayern Munich's E-commerce shop</a> <br /> <br /> Technologies used: TypeScript, React, Nuxt, Vue, AWS",
+        "Worked on the main AY Shop and worked with clients of AY's SaaS tool - Scayle. Led the team that developed and launched their most important project - <a href='https://fcbayern.com/store/de-de' class='underline'> FC Bayern Munich's E-commerce shop</a> <br /> <br />",
     },
     {
       company: "GeekyAnts",
@@ -73,7 +72,7 @@ export const RESUME_DATA = {
       start: "Dec 2014",
       end: "May 2021",
       description:
-        "Joined the company as the third employee and helped scale it to a 100+ company. Built and launched multiple projects using various tech stacks. Later on, ran a team of 12 engineers and was responsible for everything from hiring, training new joinees, performance evaluation and helping out the tech leads with technical decisions. <br /> <br /> Technologies used: TypeScript, PHP, Dart, AngularJS, React.js, Laravel,Node, AWS and GCP.",
+        "Joined the company as the third employee and helped scale it to a 100+ company. Built and launched multiple projects using various tech stacks. Later on, ran a team of 12 engineers and was responsible for everything from hiring, training new joinees, performance evaluation and helping out the tech leads with technical decisions. <br /> <br />",
     },
   ],
   skills: [
